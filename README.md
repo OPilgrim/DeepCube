@@ -18,6 +18,7 @@
 #### 本地运行：
 
 - `git clone`我的项目
+- 从[codeocean](https://codeocean.com/capsule/5723040/tree/v1)下载`savedModels.zip`解压到`deepcube/code/savedModels`
 - 导航到`README.md`当前文件夹下，运行`python manage.py runserver`，可以在本地`http://127.0.0.1:8000/deepcube`访问网页并运行、求解
 - 运行`python manage.py runserver 0.0.0.0:8000`可以外网访问本机(你的电脑)`IP`的`8000`端口，即`url=http://IP:8000/deepcube`，不过要先修改`Cube/setting.py`的`ALLOWED_HOSTS=["IP1","IP2","127.0.0.1",]`
 
